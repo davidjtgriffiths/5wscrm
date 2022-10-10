@@ -22,7 +22,8 @@
           <va-sidebar-item-title>Sidebar demo</va-sidebar-item-title>
         </va-sidebar-item-content>
       </va-sidebar-item>
-<!-- Hello tony! -->
+
+
       <va-sidebar-item>
         <va-sidebar-item-content>
           <va-icon name="loop" />
