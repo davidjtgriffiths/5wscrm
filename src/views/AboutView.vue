@@ -31,4 +31,11 @@
       </va-sidebar-item>
     </va-sidebar>
   </div>
+  <va-collapse
+    v-model="value"
+    style="width: 400px;"
+    header="Collapse header"
+  >
+    <div>Collapse content</div>
+  </va-collapse>
 </template>
