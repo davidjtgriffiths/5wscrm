@@ -1,4 +1,5 @@
 import { createApp } from "vue";
+import { createPinia } from 'pinia'
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
@@ -10,6 +11,7 @@ import "vuestic-ui/styles/reset.css";
 import "vuestic-ui/styles/typography.css";
 
 createApp(App)
+  .use(createPinia())
   .use(router)
   .use(createVuestic())
   .mount("#app");

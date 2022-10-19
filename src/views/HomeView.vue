@@ -30,6 +30,7 @@
 </template>
 <script>
 import { defineComponent } from 'vue'
+import { useStoreLeads } from '@/stores/storeLeads.js'
 
 export default defineComponent({
   data () {
