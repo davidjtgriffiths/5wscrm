@@ -1,0 +1,368 @@
+// Model & generate Live JSON data values
+// interactively using a simple syntax.
+// String is the default value type
+company [0]
+  name = Cafe Lavista
+   category [0]
+    coffeeMachine [0]
+      brand [0]
+        name = Vista
+        model [0]
+          name = Gaia
+          variant [0]
+            description = Easy
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+          variant [1]
+            description = Touch
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+        model [1]
+          name = Talia
+          variant [0]
+            description = Easy
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+          variant [1]
+            description = Touch
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+        model [2]
+          name = Piccola
+          variant [0]
+            description = New
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+          variant [1]
+            description = Refurbished
+             wsPrice n = 219500
+             rrPrice n = 369500
+             warranty [0]
+               description = none
+               term [0]
+                 length n = 0
+                 wsPrice n = 0
+                 rrPrice n = 0
+             warranty [1]
+               description = Parts Only
+               term [0]
+                 length n = 3
+                 wsPrice n = 27500
+                 rrPrice n = 30000
+               term [1]
+                 length n = 5
+                 wsPrice n = 70000
+                 rrPrice n = 75000
+             warranty [2]
+               description = Parts & Labour
+               term [0]
+                 length n = 1
+                 wsPrice n = 40000
+                 rrPrice n = 45000
+               term [1]
+                 length n = 3
+                 wsPrice n = 135000
+                 rrPrice n = 150000
+               term [2]
+                length n = 4
+                wsPrice n = 182500
+                rrPrice n = 204000
+               term [3]
+                length n = 5
+                wsPrice n = 230000
+                rrPrice n = 260000
+             waterOptions [0]
+              description = Integrated Tank
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [1]
+              description = Water Filter Kit & Brita Water Filter
+              wsPrice n = 0
+              rrPrice n = 0
+             waterOptions [2]
+              description = External 5 Gallon Water Tank & Pump Kit
+              wsPrice n = 125000
+              rrPrice n = 175000
+    merchandising [0]
+      description = none
+      wsPrice n = 0
+      rrPrice n = 0
+    merchandising [1]
+      description = Display Stand
+      wsPrice n = 55000
+      rrPrice n = 85000
+    marketing [0]
+      description = none
+      wsPrice n = 0
+      rrPrice n = 0
+    marketing [1]
+      description = Partial Marketing
+      wsPrice n = 70
+      rrPrice n = 125
+    marketing [2]
+      description = Full Marketing
+      wsPrice n = 125
+      rrPrice n = 250
+    cardMachine [0]
+      name = no
+      wsPrice n = 0
+      rrPrice n = 0
+    cardMachine [1]
+      name = yes
+      wsPrice n = 395000
+      rrPrice n = 495000
+    drinkPack [0]
+      id n = 1
+      description = none
+      wsPrice n = 0
+      rrPrice n = 0
+    drinkPack [1]
+      id n = 2
+      description = 250 Drink Pack
+      wsPrice n = 0
+      rrPrice n = 0
+    drinkPack [2]
+      id n = 3
+      description = 500 Drink Pack
+      wsPrice n = 9000
+      rrPrice n = 10000
+    drinkPack [3]
+      id n = 4
+      description = 750 Drink Pack
+      wsPrice n = 18000
+      rrprice n = 20000
+    drinkPack [4]
+      id n = 5
+      description = 1000 Drink Pack
+      wsPrice n = 27000
+      rrPrice n = 30000

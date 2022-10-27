@@ -10,6 +10,8 @@ import "vuestic-ui/styles/grid.css";
 import "vuestic-ui/styles/reset.css";
 import "vuestic-ui/styles/typography.css";
 
+const pinia = createPinia()
+
 createApp(App)
   .use(createPinia())
   .use(router)

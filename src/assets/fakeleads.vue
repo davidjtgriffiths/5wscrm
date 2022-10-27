@@ -1,4 +1,4 @@
-<script setup>
+
 const leads ={
     "users": [
       {
@@ -1835,4 +1835,3 @@ const leads ={
     "skip": 0,
     "limit": 30
   }
-  </script>
