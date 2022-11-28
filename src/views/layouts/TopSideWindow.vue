@@ -1,44 +1,21 @@
 <template>
-    <h1>Grid Layout</h1>
-
-    <p>This grid layout contains six columns and three rows:</p>
-
     <div class="grid-container">
 
     <div class="item1">
         <TopNav />
     </div>
 
-  <div class="item2">
-    <SideNav />
-  </div>
+    <div class="item2">
+        <SideNav />
+    </div>
 
-  <div class="item3">
-    <pre>*
+    <div class="item3">
+        <router-view />
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                        *
-    </pre>
-  </div>
-
-  <div class="item5">
-    <MainFooter /></div>
+    <div class="item5">
+        <MainFooter />
+    </div>
 </div>
 
 </template>

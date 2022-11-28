@@ -5,12 +5,6 @@
       placeholder="Filter..."
       v-model="filter"
     />
-
-    <va-checkbox
-      class="flex mb-2 md6"
-      label="exact match"
-      v-model="useCustomFilteringFn"
-    />
   </div>
 
   <va-data-table
@@ -21,18 +15,11 @@
     @filtered="filteredCount = $event.items.length"
   />
 
-  <va-alert class="mt-3" color="info" outline>
-    <span>
-      Number of filtered items:
-      <va-chip>{{ filteredCount }}</va-chip>
-    </span>
-  </va-alert>
 </template>
+
 <script>
 import { defineComponent } from 'vue'
 import { useStoreQuoteLines } from '@/stores/storeQuoteLines.js'
-
-
 
 export default defineComponent({
   data () {

@@ -21,3 +21,24 @@
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+.quote-line {  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . .";
+}
+
+.quote-container {  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . .";
+}

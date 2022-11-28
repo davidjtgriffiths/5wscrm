@@ -486,14 +486,16 @@ export const useStoreQuoteLines = defineStore('quoteLines', () => {
                 ],
                 "merchandising": [
                   {
+                    "id": 1,
                     "description": "none",
                     "wsPrice": 0,
-                    "rrPrice": 0
+                    "rrPrice": "0"
                   },
                   {
+                    "id": 2,
                     "description": "Display Stand",
                     "wsPrice": 55000,
-                    "rrPrice": 85000
+                    "rrPrice": "85000"
                   }
                 ],
                 "marketing": [

@@ -7,17 +7,17 @@
 </div>
 
 <!-- <div v-for="cardMachine in quoteLines.database.company[0].category[0].cardMachine"> -->
-<div v-for="cardMachine in quoteLines.database.company[0].category[0].merchandising">
+<!-- <div v-for="cardMachine in quoteLines.database.company[0].category[0].merchandising">
   name          {{ cardMachine.description }}<br>
   array          {{ cardMachine }}
-</div>
+</div> -->
 
-<div style="max-width: 300px;">
+<!-- <div style="max-width: 300px;">
     <va-select v-model="value" :textBy="name" :options="quoteLines.database.company[0].category[0].cardMachine.name" />
     xxxxxxx {{ quoteLines.getUserById(1) }}
 
     yyyyyyyyyy {{ quoteLines.category(dave) }}
-  </div>
+  </div> -->
 
 
 

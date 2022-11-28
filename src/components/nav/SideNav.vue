@@ -1,24 +1,27 @@
 <template>
-    <va-sidebar textColor="dark">
+    <va-sidebar hoverable minimizedWidth="64px" textColor="dark" color="#BA3232">
         <va-sidebar-item>
         <va-sidebar-item-content>
             <va-icon name="dashboard" />
-            <!-- User can hide item with css if he wants -->
             <va-sidebar-item-title>Dashboard</va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
-        <va-sidebar-item active>
+        <va-sidebar-item active active-color="warning">
         <va-sidebar-item-content>
-            <va-icon name="request_quote" />
-            <va-sidebar-item-title>Quote</va-sidebar-item-title>
+            <va-icon name="people" />
+            <va-sidebar-item-title>
+                <router-link to="/">Customers</router-link>
+            </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
         <va-sidebar-item>
         <va-sidebar-item-content>
-            <va-icon name="add_location" />
-            <va-sidebar-item-title>Survey</va-sidebar-item-title>
+            <va-icon name="request_quote" />
+            <va-sidebar-item-title>
+                <router-link to="/quote">Quote</router-link>
+            </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
@@ -31,15 +34,15 @@
 
         <va-sidebar-item>
         <va-sidebar-item-content>
-            <va-icon name="inventory" />
-            <va-sidebar-item-title>Products</va-sidebar-item-title>
+            <va-icon name="videocam" />
+            <va-sidebar-item-title>Testimonials</va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
         <va-sidebar-item>
         <va-sidebar-item-content>
-            <va-icon name="payments" />
-            <va-sidebar-item-title>Sales</va-sidebar-item-title>
+            <va-icon name="square_foot" />
+            <va-sidebar-item-title>Specs</va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 

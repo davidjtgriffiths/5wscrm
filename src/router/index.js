@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import QuoteView from "../views/QuoteView.vue";
 import TopSideWindow from "../views/layouts/TopSideWindow.vue";
 
 const routes = [
@@ -7,6 +8,11 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/quote",
+    name: "quote",
+    component: QuoteView,
   },
   {
     path: "/newhome",
