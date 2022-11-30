@@ -207,7 +207,7 @@
           </div>
 
         <div class="text-green-800 font-semibold">
-            {{ quote.merchandising.package }}
+
         </div>
 
         <div class="rrPrice">
@@ -679,7 +679,7 @@ let quote = reactive (
       "profit": 0
     },
     "cardMachine": {
-      "model": "",
+      "package": "0",
       "variant": "",
       "rrPrice": 0,
       "wsPrice": 0,
@@ -700,7 +700,7 @@ let quote = reactive (
       "profit": 0
     },
     "drinkPack": {
-      "package": "",
+      "package": "0",
       "variant": "",
       "rrPrice": 0,
       "wsPrice": 0,
