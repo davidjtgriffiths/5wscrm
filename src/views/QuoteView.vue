@@ -152,7 +152,7 @@
         </div>
 
         <div>
-            <va-input readonly :label="quote.cardMachine.rrPrice" v-model="quote.cardMachine.rrPrice" />
+            <va-input readonly v-model="quote.cardMachine.rrPrice" />
         </div>
 
         <div class="wsPrice">

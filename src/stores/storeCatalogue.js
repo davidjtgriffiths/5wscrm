@@ -26,7 +26,7 @@ export const useCatalogueStore = defineStore('catalogue', {
                 }
                 this.catalogue.push(merchandisingOption)
             });
-            // console.log(this.catalogue);
+            console.log(this.catalogue);
         }
     }
 
