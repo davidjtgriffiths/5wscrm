@@ -116,6 +116,7 @@
 
         <!-- Start Row -->
         <div class="font-bold">
+            Options
         </div>
 
         <div>
