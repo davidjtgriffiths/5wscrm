@@ -635,7 +635,7 @@
 <script setup>
 
 import { ref, reactive, onMounted, computed, watch } from 'vue'
-import { useStoreQuoteLines } from "../stores/storeQuoteLines.js";
+
 import { defineComponent } from 'vue';
 import { useCatalogueStore } from '../stores/storeCatalogue'
 
@@ -643,9 +643,9 @@ const catalogueStore = useCatalogueStore()
 
 
 
-const props = defineProps(['value'])
-const quoteLines = useStoreQuoteLines();
-const merchandisingOptions = quoteLines.database.company[0].category[0].merchandising
+
+
+
 
 
 const catalogue = reactive(catalogueStore.catalogue)
