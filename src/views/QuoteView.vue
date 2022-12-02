@@ -322,7 +322,7 @@
 
         <!-- Start Row -->
         <div class="text-green-800 font-semibold">
-            <va-input readonly v-model="quote.additions.rrPrice" label="Additions" />
+            <va-input v-model="quote.additions.rrPrice" label="Additions" />
         </div>
 
         <div class="text-green-800 font-semibold">
@@ -344,7 +344,7 @@
 
         <!-- Start Row -->
         <div class="text-green-800 font-semibold">
-            <va-input readonly v-model="quote.discount.percentage" label="Discount %" />
+            <va-input v-model="quote.discount.percentage" label="Discount %" />
         </div>
 
         <div class="text-green-800 font-semibold">
