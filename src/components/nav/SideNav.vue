@@ -28,14 +28,18 @@
         <va-sidebar-item>
         <va-sidebar-item-content>
             <va-icon name="photo_camera" />
-            <va-sidebar-item-title>Inspection</va-sidebar-item-title>
+            <va-sidebar-item-title>
+                <router-link to="/customer">Customer Invoice</router-link>
+            </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
         <va-sidebar-item>
         <va-sidebar-item-content>
             <va-icon name="videocam" />
-            <va-sidebar-item-title>Testimonials</va-sidebar-item-title>
+            <va-sidebar-item-title>
+                <router-link to="/trade">Trade Invoice</router-link>
+            </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 

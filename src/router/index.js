@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import QuoteView from "../views/QuoteView.vue";
+import CustomerInvoiceView from "../views/CustomerInvoiceView.vue";
+import TradeInvoiceView from "../views/TradeInvoiceView.vue";
 import TopSideWindow from "../views/layouts/TopSideWindow.vue";
 
 const routes = [
@@ -13,6 +15,16 @@ const routes = [
     path: "/quote",
     name: "quote",
     component: QuoteView,
+  },
+  {
+    path: "/customer",
+    name: "customer",
+    component: CustomerInvoiceView,
+  },
+  {
+    path: "/trade",
+    name: "trade",
+    component: TradeInvoiceView,
   },
   {
     path: "/newhome",
