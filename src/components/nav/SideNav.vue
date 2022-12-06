@@ -11,7 +11,7 @@
         <va-sidebar-item-content>
             <va-icon name="people" />
             <va-sidebar-item-title>
-                <router-link to="/">Customers</router-link>
+                <router-link to="home/">Customers</router-link>
             </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
@@ -46,7 +46,9 @@
         <va-sidebar-item>
         <va-sidebar-item-content>
             <va-icon name="square_foot" />
-            <va-sidebar-item-title>Specs</va-sidebar-item-title>
+            <va-sidebar-item-title>
+                <router-link to="/">Login</router-link>
+            </va-sidebar-item-title>
         </va-sidebar-item-content>
         </va-sidebar-item>
 
