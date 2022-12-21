@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+input {
+    display: block;
+    width: 100%;
+  }
+
 /* TopSideWindow grid */
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
@@ -42,3 +47,11 @@
     ". . . . ."
     ". . . . .";
 }
+
+.two-col-col {  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+  }

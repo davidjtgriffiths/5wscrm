@@ -1,4 +1,3 @@
-
 <template>
 
     <div v-if="quote" class="quote-container ">
@@ -36,15 +35,15 @@
         </div>
 
         <div class="rrPrice">
-            <va-input readonly v-model="quote.machine.rrPrice" />
+            <input readonly v-model="quote.machine.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.machine.wsPrice" />
+            <input readonly v-model="quote.machine.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.machine.profit" />
+            <input readonly v-model="quote.machine.profit" />
         </div>
         <!-- End Row -->
 
@@ -58,15 +57,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.waterOption.rrPrice" />
+            <input readonly v-model="quote.waterOption.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.waterOption.wsPrice" />
+            <input readonly v-model="quote.waterOption.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.waterOption.profit" />
+            <input readonly v-model="quote.waterOption.profit" />
         </div>
         <!-- End Row -->
 
@@ -102,15 +101,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.warranty.rrPrice" />
+            <input readonly v-model="quote.warranty.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.warranty.wsPrice" />
+            <input readonly v-model="quote.warranty.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.warranty.profit" />
+            <input readonly v-model="quote.warranty.profit" />
         </div>
         <!-- End Row -->
 
@@ -152,15 +151,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.cardMachine.rrPrice" />
+            <input readonly v-model="quote.cardMachine.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.cardMachine.wsPrice" />
+            <input readonly v-model="quote.cardMachine.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.cardMachine.profit" />
+            <input readonly v-model="quote.cardMachine.profit" />
         </div>
         <!-- End Row -->
 
@@ -181,15 +180,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.marketing.rrPrice" />
+            <input readonly v-model="quote.marketing.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.marketing.wsPrice" />
+            <input readonly v-model="quote.marketing.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.marketing.profit" />
+            <input readonly v-model="quote.marketing.profit" />
         </div>
         <!-- End Row -->
 
@@ -211,15 +210,15 @@
         </div>
 
         <div class="rrPrice">
-            <va-input readonly v-model="quote.merchandising.rrPrice" />
+            <input readonly v-model="quote.merchandising.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly initial="0" v-model="quote.merchandising.wsPrice" />
+            <input readonly initial="0" v-model="quote.merchandising.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.merchandising.profit" />
+            <input readonly v-model="quote.merchandising.profit" />
         </div>
         <!-- End Row -->
 
@@ -239,15 +238,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.drinkPack.rrPrice" />
+            <input readonly v-model="quote.drinkPack.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.drinkPack.wsPrice" />
+            <input readonly v-model="quote.drinkPack.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.drinkPack.profit" />
+            <input readonly v-model="quote.drinkPack.profit" />
         </div>
         <!-- End Row -->
 
@@ -283,15 +282,15 @@
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.subTotal.rrPrice" />
+            <input readonly v-model="quote.subTotal.rrPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.subTotal.wsPrice" />
+            <input readonly v-model="quote.subTotal.wsPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.subTotal.profit" />
+            <input readonly v-model="quote.subTotal.profit" />
         </div>
         <!-- End Row -->
 
@@ -322,7 +321,7 @@
 
         <!-- Start Row -->
         <div class="text-green-800 font-semibold">
-            <va-input v-model="quote.additions.rrPrice" label="Additions" />
+            <input v-model="quote.additions.rrPrice" label="Additions" />
         </div>
 
         <div class="text-green-800 font-semibold">
@@ -330,21 +329,21 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.additions.rrPrice" />
+            <input readonly v-model="quote.additions.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.additions.wsPrice" />
+            <input readonly v-model="quote.additions.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.additions.profit" />
+            <input readonly v-model="quote.additions.profit" />
         </div>
         <!-- End Row -->
 
         <!-- Start Row -->
         <div class="text-green-800 font-semibold">
-            <va-input v-model="quote.discount.percentage" label="Discount %" />
+            <input v-model="quote.discount.percentage" label="Discount %" />
         </div>
 
         <div class="text-green-800 font-semibold">
@@ -352,7 +351,7 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.discount.rrPrice" />
+            <input readonly v-model="quote.discount.rrPrice" />
         </div>
 
         <div class="wsPrice">
@@ -360,7 +359,7 @@
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.discount.profit" />
+            <input readonly v-model="quote.discount.profit" />
         </div>
         <!-- End Row -->
 
@@ -397,15 +396,15 @@
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.total.rrPrice" />
+            <input readonly v-model="quote.total.rrPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.total.wsPrice" />
+            <input readonly v-model="quote.total.wsPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.total.profit" />
+            <input readonly v-model="quote.total.profit" />
         </div>
         <!-- End Row -->
 
@@ -442,21 +441,21 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.finance.rrPrice" />
+            <input readonly v-model="quote.finance.rrPrice" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.finance.wsPrice" />
+            <input readonly v-model="quote.finance.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.finance.profit" />
+            <input readonly v-model="quote.finance.profit" />
         </div>
         <!-- End Row -->
 
         <!-- Start Row -->
         <div class="text-green-800 font-semibold">
-            <va-input readonly v-model="quote.financeFee.fee" label="Acceptance Fee???" />
+            <input readonly v-model="quote.financeFee.fee" label="Acceptance Fee???" />
         </div>
 
         <div class="text-green-800 font-semibold">
@@ -464,15 +463,15 @@
         </div>
 
         <div>
-            <va-input readonly v-model="quote.financeFee.fee" />
+            <input readonly v-model="quote.financeFee.fee" />
         </div>
 
         <div class="wsPrice">
-            <va-input readonly v-model="quote.financeFee.wsPrice" />
+            <input readonly v-model="quote.financeFee.wsPrice" />
         </div>
 
         <div class="profit">
-            <va-input readonly v-model="quote.financeFee.profit" />
+            <input readonly v-model="quote.financeFee.profit" />
         </div>
         <!-- End Row -->
 
@@ -511,15 +510,15 @@
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.finalPrice.rrPrice" />
+            <input readonly v-model="quote.finalPrice.rrPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.finalPrice.wsPrice" />
+            <input readonly v-model="quote.finalPrice.wsPrice" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.finalPrice.profit" />
+            <input readonly v-model="quote.finalPrice.profit" />
         </div>
         <!-- End Row -->
 
@@ -534,8 +533,9 @@
             Monthly
         </div>
 
-        <div class="font-bold">
-            Weekly
+        <div class="font-bold two-col-col">
+            <div>Weekly</div>
+            <div>Cups</div>
         </div>
         <div class="font-bold">
             Daily 7
@@ -548,22 +548,27 @@
 
         <!-- Start Row -->
         <div class="font-bold">
-
+            Tier 1
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.financeBreakdown.monthly" />
+            <input readonly v-model="quote.financeBreakdown.monthly" />
         </div>
-        <div class="font-bold">
-            <va-input readonly v-model="quote.financeBreakdown.weekly" />
+        <div class="font-bold two-col-col">
+            <div>
+            <input class="border border-solid border-gray-300 block mb-2 text-sm font-medium text-gray-900" readonly v-model="quote.financeBreakdown.weekly" />
+            </div>
+            <div>
+            <input readonly v-model="quote.financeBreakdown.weekly" />
+            </div>
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.financeBreakdown.daily7" />
+            <input readonly v-model="quote.financeBreakdown.daily7" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.financeBreakdown.daily5" />
+            <input readonly v-model="quote.financeBreakdown.daily5" />
         </div>
         <!-- End Row -->
 
@@ -592,22 +597,22 @@
 
         <!-- Start Row -->
         <div class="font-bold">
-            <va-input readonly v-model="quote.commission.leadSource" />
+            <input readonly v-model="quote.commission.leadSource" />
         </div>
 
         <div class="font-bold">
 
         </div>
         <div class="font-bold">
-            <va-input readonly v-model="quote.commission.providedLead" />
+            <input readonly v-model="quote.commission.providedLead" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.commission.selfGenerated" />
+            <input readonly v-model="quote.commission.selfGenerated" />
         </div>
 
         <div class="font-bold">
-            <va-input readonly v-model="quote.commission.percentageOfDeal" />
+            <input readonly v-model="quote.commission.percentageOfDeal" />
         </div>
         <!-- End Row -->
 

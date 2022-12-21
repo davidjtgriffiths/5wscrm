@@ -7,9 +7,29 @@
         <va-navbar-item>Center</va-navbar-item>
         </template>
         <template #right>
-        <va-badge left text="99+" class="mr-4">
-            <va-navbar-item><va-avatar src="https://randomuser.me/api/portraits/women/5.jpg" /></va-navbar-item>
-        </va-badge>
+            <va-button
+                v-if="storeAuth.user.uid"
+                @click="storeAuth.logoutUser()"
+            >
+                Logout {{ storeAuth.user.email }}
+            </va-button>
+            <va-button
+                v-else
+                @click="storeAuth.logoutUser()"
+                >
+                <!-- TODO: change this ^ to redirect to login page  -->
+                Login
+            </va-button>
         </template>
     </va-navbar>
 </template>
+
+<script setup>
+
+    import { useAuthStore } from '@/stores/storeAuth';
+    const storeAuth = useAuthStore()
+
+
+
+
+</script>

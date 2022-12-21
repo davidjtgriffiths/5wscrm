@@ -1,4 +1,4 @@
-import { createApp } from "vue";
+import { createApp, markRaw } from "vue";
 import { createPinia } from 'pinia'
 import App from "./App.vue";
 import "./registerServiceWorker";
@@ -12,8 +12,12 @@ import "vuestic-ui/styles/typography.css";
 
 const pinia = createPinia()
 
+pinia.use(({ store }) => {
+    store.router = markRaw(router)
+  })
+
 createApp(App)
-  .use(createPinia())
+  .use(pinia)
   .use(router)
   .use(createVuestic())
   .mount("#app");
